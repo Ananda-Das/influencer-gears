@@ -65,8 +65,21 @@
 }
 .banner-img {
   background: url("../assets/images/Circle\ design.svg");
-  /* position: relative; */
   padding-top: 40px;
+}
+
+/* sponsor styles */
+.sponsor{
+  max-width: 1120px;
+  margin: 70px auto;
+}
+.sponsor-iteams{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 20px 0;
+}
+.sponsor-iteams img{
+  margin-left: 60px;
 }
 
 /* responsive styles */
@@ -81,5 +94,16 @@
   }
   .banner-title{
     font-size: 1.75rem;
+  }
+  .sponsor{
+    margin: 0 auto;
+  }
+  .sponsor-iteams{
+    padding: 10px;
+    text-align: center;
+    border: none;
+  }
+  .sponsor-iteams img{
+    margin-left: 20px;
   }
 }
