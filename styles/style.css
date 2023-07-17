@@ -69,41 +69,94 @@
 }
 
 /* sponsor styles */
-.sponsor{
+main {
   max-width: 1120px;
   margin: 70px auto;
 }
-.sponsor-iteams{
+.sponsor-iteams {
   border-top: 1px solid gray;
   border-bottom: 1px solid gray;
   padding: 20px 0;
 }
-.sponsor-iteams img{
+.sponsor-iteams img {
   margin-left: 60px;
+}
+
+/* Popular Collection styles */
+.popular-title {
+  text-align: center;
+  color: #3a3a3a;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.collection-items {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 17px 15px;
+}
+.collection-items img{
+  margin: 0 auto;
+}
+.item-title {
+  color: #18191f;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.375rem;
+}
+.item-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+}
+.item-rating,
+.item-description {
+  color: #5e6366;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.next-button{
+  text-align: right;
+    margin-top: 50px;
+}
+.next-button a{
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+font-size: 1rem;
+font-weight: 700;
 }
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
   .nav-container,
-  .nav-list ul, .banner {
+  .nav-list ul,
+  .banner {
     flex-direction: column;
   }
-  .banner{
+  .banner {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .banner-title{
+  .banner-title {
     font-size: 1.75rem;
   }
-  .sponsor{
+  .sponsor {
     margin: 0 auto;
   }
-  .sponsor-iteams{
+  .sponsor-iteams {
     padding: 10px;
     text-align: center;
     border: none;
   }
-  .sponsor-iteams img{
+  .sponsor-iteams img {
     margin-left: 20px;
   }
 }
