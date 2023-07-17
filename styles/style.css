@@ -135,6 +135,27 @@ main {
   font-weight: 700;
 }
 
+/* feature styles */
+.feature {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 90px;
+  margin-top: 100px;
+}
+.feature-title {
+  color: #0a0826;
+  font-size: 2.375rem;
+  font-weight: 700;
+}
+.feature-description {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 /* responsive styles */
 @media screen and (max-width: 576px) {
   .nav-container,
