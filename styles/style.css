@@ -124,6 +124,9 @@ main {
   font-size: 0.875rem;
   font-weight: 700;
 }
+.item-rating i{
+  color: orange;
+}
 .next-button {
   text-align: right;
   margin-top: 50px;
