@@ -126,6 +126,7 @@ main {
 }
 .item-rating i{
   color: orange;
+  font-size: 0.875rem;
 }
 .next-button {
   text-align: right;
