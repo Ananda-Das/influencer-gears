@@ -65,7 +65,8 @@
 }
 .banner-img {
   background: url("../assets/images/Circle\ design.svg");
-  padding-top: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* sponsor styles */
@@ -124,7 +125,7 @@ main {
   font-size: 0.875rem;
   font-weight: 700;
 }
-.item-rating i{
+.item-rating i {
   color: orange;
   font-size: 0.875rem;
 }
@@ -159,34 +160,33 @@ main {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.feature-btn{
+.feature-btn {
   border-radius: 0;
 }
 
 /* footer styles */
-footer{
+footer {
   text-align: center;
-    color: white;
-    background: #0A0826;
-    padding: 50px 0;
+  color: white;
+  background: #0a0826;
+  padding: 50px 0;
 }
-.footer-title{
+.footer-title {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.footer-description{
-  color: #D9DBE1;
+.footer-description {
+  color: #d9dbe1;
   font-size: 0.875rem;
   font-weight: 700;
 }
-.social-icons{
+.social-icons {
   display: flex;
   gap: 16px;
   justify-content: center;
   margin-top: 7px;
   font-size: 1.25rem;
 }
-
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
@@ -195,11 +195,13 @@ footer{
   .banner {
     flex-direction: column;
   }
-  .banner, .feature {
+  .banner,
+  .feature {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .banner-title, .feature-title {
+  .banner-title,
+  .feature-title {
     font-size: 1.75rem;
   }
   .sponsor {
