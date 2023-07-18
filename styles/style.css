@@ -155,6 +155,34 @@ main {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.feature-btn{
+  border-radius: 0;
+}
+
+/* footer styles */
+footer{
+  text-align: center;
+    color: white;
+    background: #0A0826;
+    padding: 50px 0;
+}
+.footer-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.footer-description{
+  color: #D9DBE1;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+.social-icons{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 7px;
+  font-size: 1.25rem;
+}
+
 
 /* responsive styles */
 @media screen and (max-width: 576px) {
@@ -163,11 +191,11 @@ main {
   .banner {
     flex-direction: column;
   }
-  .banner {
+  .banner, .feature {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .banner-title {
+  .banner-title, .feature-title {
     font-size: 1.75rem;
   }
   .sponsor {
